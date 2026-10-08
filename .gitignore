@@ -1,0 +1,9 @@
+.env
+
+docker-volumes/
+
+# Configuración local y datos derivados
+.env.*
+!.env.example
+data/**
+!data/.gitkeep
